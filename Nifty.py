@@ -64,7 +64,7 @@ def train_model(df, model_name):
 
 # --- Phase 3: Streamlit App UI ---
 st.set_page_config(page_title="Global Stock Index Predictor", layout="wide")
-st.title("📈 Global Stock Index - Price Prediction App")
+st.title(" Global Stock Index - Price Prediction App")
 
 df = load_data()
 df = create_indicators(df)
